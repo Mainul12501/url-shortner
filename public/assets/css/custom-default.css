@@ -1,0 +1,136 @@
+
+body {
+    background-color: #002342;
+    font-family: Montserrat, sans-serif!important;
+}
+
+body {
+    direction: ltr;
+}
+body {
+    background-color: #fff;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+.bg-blue{background-color:#357edd}
+.hover-bg-blue:focus,
+.hover-bg-blue:hover {
+    background-color: #357edd;
+}
+.bg-blue-dark {
+    background-color: #002342 !important;
+}
+a.bg-blue-dark:focus,
+a.bg-blue-dark:hover,
+button.bg-blue-dark:focus,
+button.bg-blue-dark:hover {
+    background-color: #00080f !important;
+}
+.bg-blue-light {
+    background-color: #10bde5 !important;
+}
+a.bg-blue-light:focus,
+a.bg-blue-light:hover,
+button.bg-blue-light:focus,
+button.bg-blue-light:hover {
+    background-color: #0d96b5 !important;
+}
+.bg-blue-10 {
+    background-color: #e6f2f6 !important;
+}
+a.bg-blue-10:focus,
+a.bg-blue-10:hover,
+button.bg-blue-10:focus,
+button.bg-blue-10:hover {
+    background-color: #c1dfe9 !important;
+}
+.bg-blue-20 {
+    background-color: #cee6ec !important;
+}
+a.bg-blue-20:focus,
+a.bg-blue-20:hover,
+button.bg-blue-20:focus,
+button.bg-blue-20:hover {
+    background-color: #a9d3de !important;
+}
+.bg-blue-30 {
+    background-color: #b5d9e3 !important;
+}
+a.bg-blue-30:focus,
+a.bg-blue-30:hover,
+button.bg-blue-30:focus,
+button.bg-blue-30:hover {
+    background-color: #90c6d5 !important;
+}
+.bg-blue-40 {
+    background-color: #9dccd9 !important;
+}
+a.bg-blue-40:focus,
+a.bg-blue-40:hover,
+button.bg-blue-40:focus,
+button.bg-blue-40:hover {
+    background-color: #78b9cb !important;
+}
+.bg-blue-50 {
+    background-color: #84bfd0 !important;
+}
+a.bg-blue-50:focus,
+a.bg-blue-50:hover,
+button.bg-blue-50:focus,
+button.bg-blue-50:hover {
+    background-color: #5facc2 !important;
+}
+.bg-blue-60 {
+    background-color: #6bb3c7 !important;
+}
+a.bg-blue-60:focus,
+a.bg-blue-60:hover,
+button.bg-blue-60:focus,
+button.bg-blue-60:hover {
+    background-color: #46a0b9 !important;
+}
+.bg-blue-70 {
+    background-color: #53a6bd !important;
+}
+a.bg-blue-70:focus,
+a.bg-blue-70:hover,
+button.bg-blue-70:focus,
+button.bg-blue-70:hover {
+    background-color: #3d8aa0 !important;
+}
+.bg-blue-80 {
+    background-color: #3a99b4 !important;
+}
+a.bg-blue-80:focus,
+a.bg-blue-80:hover,
+button.bg-blue-80:focus,
+button.bg-blue-80:hover {
+    background-color: #2e788d !important;
+}
+.bg-blue-90 {
+    background-color: #228daa !important;
+}
+a.bg-blue-90:focus,
+a.bg-blue-90:hover,
+button.bg-blue-90:focus,
+button.bg-blue-90:hover {
+    background-color: #1a6a80 !important;
+}
+.bg-blue {
+    background-color: #0980a1 !important;
+}
+a.bg-blue:focus,
+a.bg-blue:hover,
+button.bg-blue:focus,
+button.bg-blue:hover {
+    background-color: #065a71 !important;
+}
+#navbarSupportedContent .navbar-nav li:hover {background-color: #10BDE5!important;}
+.home-short-info-div a{color: orange; text-decoration: none;}
+.background-img{background:linear-gradient(180deg,#002342,#0bc9e3 132.49%);background-attachment:fixed;background-color:#002342;background-size:cover;bottom:0;height:100dvh;position:fixed;top:0;width:100vw;z-index:-1}.background-img-top{height:200px;left:0;position:fixed;top:0;width:400px}.background-img-bottom{background-position:100% 100%;bottom:0;height:100dvh;position:fixed;right:0;width:100vw}
+

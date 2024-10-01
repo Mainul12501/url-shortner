@@ -16,6 +16,14 @@ class ViewController extends Controller
     {
         return view('pages.home.index');
     }
+    public function termsOfService()
+    {
+        return view('pages.common-pages.terms-of-service');
+    }
+    public function privacyPolicy()
+    {
+        return view('pages.common-pages.privacy-policy');
+    }
     public function showLinkList()
     {
         return view('pages.short-url.link-list', [

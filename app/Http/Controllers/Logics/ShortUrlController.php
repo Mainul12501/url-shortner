@@ -91,9 +91,12 @@ class ShortUrlController extends Controller
             return 'Page not found';
         }
     }
-    public function totalClick(string $parm)
+    public function totalClick(Request $request)
     {
-        return view('pages.short-url.total-click', ['shortUrl' => ShortUrl::where('short_url', $parm)->first()] );
-
+        if (isset($request->sl))
+        {
+            $shortUrl = ShortUrl::where('short_url', $request->sl)->first();
+        }
+        return view('pages.short-url.total-click', ['shortUrl' => $shortUrl ?? null] );
     }
 }
