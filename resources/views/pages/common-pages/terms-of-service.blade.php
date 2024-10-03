@@ -9,7 +9,7 @@
                 <div class="col-md-9 mx-auto">
                     <div class="card card-body px-4">
                         <div class="text-center">
-                            <h3 class="fw-bolder f-s-30">Terms of Service</h3>
+                            <h1 class="fw-bolder f-s-30">Terms of Service</h1>
                             <p>Effective September 28, 2024</p>
                         </div>
                         <div id="content" class="px-3">

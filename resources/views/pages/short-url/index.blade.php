@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-7 mx-auto">
                     <div class="card card-body">
-                        <h3 class="text-center py-4">Your shortened URL</h3>
+                        <h1 class="text-center py-4">Your shortened URL</h1>
                         <p class="px-3">Copy the short link and share it in messages, texts, posts, websites and other locations.</p>
                         <div class="row">
 {{--                            <div class="col-md-2"></div>--}}

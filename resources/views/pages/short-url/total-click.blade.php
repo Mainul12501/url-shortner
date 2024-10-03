@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-8 mx-auto">
                     <div class="card card-body">
-                        <h3 class="text-center py-4">Total URL Clicks</h3>
+                        <h1 class="text-center py-4">Total URL Clicks</h1>
                         <p>The number of clicks from the shortened URL that redirected the user to the destination page.</p>
                         <div>
                             <form action="" method="post">

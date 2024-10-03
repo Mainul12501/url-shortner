@@ -5,9 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Semi Link - @yield('title')</title>
-    <meta data-vmid="description" content="semi Link is the original URL shortener that shortens your unwieldly links into more manageable and useable URLs.">
-    <meta data-vmid="keywords" content="semi Link url save share shorten analyze">
+    <title>Semi Link - A free URL shortener tool | @yield('title')</title>
+    <meta name="description" content="semi Link is the original URL shortener that shortens your unwieldy links into more manageable and usable URLs.">
+    <meta name="keywords" content="semi Link, url, short url, tiny url, save share shorten url, analyze url">
+    <meta name=" robots" content=" index, follow">
+    <meta name="googlebot-news" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="{{ url('/') }}" />
+    <meta property="og:title" content="Semi Link - A free URL shortener tool" />
+    <meta property="og:url" content="{{ url('/') }}"/>
+    <meta property="og:description" content="semi Link is the original URL shortener that shortens your unwieldy links into more manageable and usable URLs."/>
+    <meta property="og:image" content="{{ asset('/assets/images/favicon.ico') }}"/>
+    <meta property="og:site_name" content="SEMI LINK" />
+
+    <meta name="twitter:title" content="SEMI LINK - A free URL shortener tool">
+    <meta name="twitter:description" content="semi Link is the original URL shortener that shortens your unwieldy links into more manageable and usable URLs">
+
+
+
+    <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('/assets/images/favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('/assets/css/bootstrap.min.css') }}" >
     <link rel="stylesheet" href="{{ asset('/assets/css/normalize.min.css') }}" />
     {{--    <link rel="stylesheet" href="{{ asset('/assets/css/front.css') }}">--}}
@@ -20,41 +36,43 @@
 <body>
 
 
-<nav class="navbar navbar-expand-md">
-    <div class="container" style="width: 80%">
-        <a class="navbar-brand text-light" href="{{ route('home') }}">SEMI LINK</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-blue bg-blue">
-                <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="{{ route('home') }}">ShortURL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="{{ route('total-clicks') }}">URL Click Counter</a>
-                </li>
-                @auth()
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('show-link-list') }}">Manage Links</a>
-                </li>
-                @endauth
-                @if(auth()->check())
+<header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container" style="width: 80%">
+            <a class="navbar-brand text-light" href="{{ route('home') }}">SEMI LINK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-blue bg-blue">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" onclick="event.preventDefault(); document.getElementById('logoutForm').submit()">Logout</a>
-                        <form action="{{ route('logout') }}" method="post" id="logoutForm">
-                            @csrf
-                        </form>
+                        <a class="nav-link text-white" aria-current="page" href="{{ route('home') }}">ShortURL</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="{{ route('total-clicks') }}">URL Click Counter</a>
+                    </li>
+                    @auth()
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="{{ route('show-link-list') }}">Manage Links</a>
+                        </li>
+                    @endauth
+                    @if(auth()->check())
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" onclick="event.preventDefault(); document.getElementById('logoutForm').submit()">Logout</a>
+                            <form action="{{ route('logout') }}" method="post" id="logoutForm">
+                                @csrf
+                            </form>
+                        </li>
 
-                @else
-                    <li><a class="nav-link text-white" href="{{ route('login') }}">Login</a></li>
-                    <li><a class="nav-link text-white" href="{{ route('register') }}">Register</a></li>
-                @endif
-            </ul>
+                    @else
+                        <li><a class="nav-link text-white" href="{{ route('login') }}">Login</a></li>
+                        <li><a class="nav-link text-white" href="{{ route('register') }}">Register</a></li>
+                    @endif
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
 
 <div>
     <div class="background-img">

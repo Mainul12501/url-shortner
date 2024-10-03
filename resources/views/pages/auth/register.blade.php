@@ -9,7 +9,7 @@
                 <div class="col-md-6 mx-auto">
                     <div class="card">
                         <div class="card-header py-3 text-center">
-                            <h3 class="fw-bolder">SEMI LINK</h3>
+                            <h1 class="fw-bolder">SEMI LINK - Register</h1>
                         </div>
                         <div class="card-body">
                             <div>

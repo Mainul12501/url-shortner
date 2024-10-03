@@ -9,7 +9,7 @@
                 <div class="col-md-9 mx-auto">
                     <div class="card card-body px-4">
                         <div class="text-center">
-                            <h3 class="fw-bolder f-s-30">Privacy Policy</h3>
+                            <h1 class="fw-bolder f-s-30">Privacy Policy</h1>
                         </div>
                         <div class="">
                             <span class="fw-bolder f-s-26">Privacy Policy</span>

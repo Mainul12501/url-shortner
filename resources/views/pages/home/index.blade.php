@@ -12,7 +12,7 @@
                             <form action="{{ route('short-url') }}" method="post">
                                 @csrf
                                 <div class="mb-3">
-                                    <label for="UrlInputField" class="mb-2 ms-1"><span><img src="{{ asset('/assets/images/icons/favicon-16.png') }}" alt=""></span> Shorten a long URL</label>
+                                    <label for="UrlInputField" class="mb-2 ms-1"><span><img src="{{ asset('/assets/images/icons/favicon-16.png') }}" alt="link-icon"></span> Shorten a long URL</label>
                                     <input type="text" name="full_url" required class="form-control p-3" placeholder="Enter the full link here" id="UrlInputField" />
                                     @error('full_url') <span class="text-danger">{{ $errors->first('full_url') }}</span> @enderror
                                 </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="card card-body bg-transparent text-white border-0">
-                        <h3 class="text-capitalize">The Original URL Shortener for free</h3>
+                        <h1 class="text-capitalize">SEMI LINK - The Original URL Shortener for free</h1>
                         <p>Create shorter URLs with <span class="text-uppercase">semi link</span></p>
                         <p>Want more out of your link shortener? Track link analytics, use branded domains for fully custom links, and manage your links for free.</p>
                         <p class=" text-center">
@@ -87,42 +87,42 @@
             <div class="row px-5">
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-like.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-like.png') }}" alt="Easy and fast to short url" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Easy</p>
                         <p><b>Semi Link</b> is easy and fast, enter the long link to get your shortened link</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-url.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-url.png') }}" alt="big link to tiny link" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Shortened</p>
-                        <p>Use any link, no matter what size, ShortURL always shortens</p>
+                        <p>Use any link, no matter what size, <b>Semi Link</b> always shortens</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-secure.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-secure.png') }}" alt="secure service" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Secure</p>
                         <p>It is fast and secure, our service has HTTPS protocol and data encryption</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-statistics.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-statistics.png') }}" alt="statistics" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Statistics</p>
                         <p>Check the number of clicks that your shortened URL received</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-unique.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center"><img src="{{ asset('/assets/images/icons/icon-unique.png') }}" alt="reliable service" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Reliable</p>
                         <p>All links that try to disseminate spam, viruses and malware are deleted</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-body bg-transparent border-0 text-center">
-                        <p class="text-center bg-white"><img src="{{ asset('/assets/images/icons/icon-responsive.png') }}" alt="" class="" style="height: 75px; width: 75px" ></p>
+                        <p class="text-center bg-white"><img src="{{ asset('/assets/images/icons/icon-responsive.png') }}" alt="all device compatible" class="" style="height: 75px; width: 75px" ></p>
                         <p class="fw-bolder f-s-20">Devices</p>
                         <p>Compatible with smartphones, tablets and desktop</p>
                     </div>

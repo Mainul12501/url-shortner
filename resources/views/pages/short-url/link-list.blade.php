@@ -8,7 +8,7 @@
                 <div class="col-11 mx-auto">
                     <div class="card">
                         <div class="card-header">
-                            <h4>My Shorten Url List</h4>
+                            <h1>My Shorten Url List</h1>
                         </div>
                         <div class="card-body">
                             <div>
