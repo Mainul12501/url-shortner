@@ -32,6 +32,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mainul12501/css-common-helper-classes/helper.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @stack('style')
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1GDER9ZMX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J1GDER9ZMX');
+    </script>
 </head>
 <body>
 
@@ -117,7 +126,7 @@
 </main>
 
 
-<footer class="py-2 bg-dark text-white" style="">
+<footer class="py-2 bg-dark text-white" >
     <div class="container">
         <div class="row">
             <div class="col-md-10 mx-auto text-center">
@@ -160,7 +169,7 @@
 <script>
     $(document).ready(function () {
         var mainHeight = Math.round($('main').height());
-        console.log(mainHeight);
+        // console.log(mainHeight);
         if (mainHeight < 550)
         {
             $('footer').css({

@@ -32,7 +32,7 @@
                                     <div class="row mt-2">
                                         <label for="name" class="col-md-3">Password</label>
                                         <div class="col-md-7">
-                                            <input type="password" name="password" class="form-control" min="8" placeholder="Type Your Password" />
+                                            <input type="password" name="password" class="form-control" min="8" placeholder="Minimum 8 Characters" />
 {{--                                            @error('password') <span class="text-danger">{{ $errors->first('password') ?? '' }}</span> @enderror--}}
                                         </div>
                                     </div>
